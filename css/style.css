@@ -53,7 +53,18 @@ body{
         width: 1170px;
     }
 }
-
+.up{
+ background-color: var(--thirdColor);
+ border-radius: 50%;
+ width: fit-content;
+ padding: 20px;
+ position: fixed;
+ right: 0;
+ bottom:100px ;
+}
+.up i{
+    color: black;
+}
 /* header start */
 .header{
     margin-bottom: -22px;
