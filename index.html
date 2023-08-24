@@ -16,7 +16,7 @@
 </head>
 <body >
    <!-- Start Header -->
-   <div class="header">
+   <div class="header" id="header">
         <div class="container">
                 <div class="upHeader">
                     <div class="fleft">
@@ -41,9 +41,9 @@
                     <i class="fa-solid fa-bars"  onclick="openCloseMenu()"></i>
                     <ul id="listo">
                         <li ><a href=""class="active " id="item1">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="">Team</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
@@ -52,6 +52,9 @@
         </div>
     </div>
     <!-- End Header -->
+    <div class="up">
+        <a href="#header"><i class="fa-solid fa-arrow-up fa-2xl"></i></a>
+    </div>
     <!-- Start Landing -->
     <div class="landing">
         <div class="container">
@@ -78,7 +81,7 @@
     <!-- End Landing -->
 
     <!-- Start About -->
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="about-Content">
                <div class="section-header">
@@ -146,7 +149,7 @@
 
 
     <!-- Start Services -->
-    <div class="Services">
+    <div class="Services" id="services">
         <div class="container">
             <div class="Services-Content">
                <div class="section-header">
@@ -211,7 +214,7 @@
 
 
         <!-- Start Portfolio -->
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio">
             <div class="container">
                 <div class="protfolio-Content">
                    <div class="section-header">
